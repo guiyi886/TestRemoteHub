@@ -19,7 +19,7 @@ public class BookService {
 
     /**
      * 获取全部书籍，按照ID排序
-     * @return 书籍列表
+     * @return 书籍列表 123456789
      */
     public List<Book> list() {
         return bookDAO.findAll(Sort.by(Sort.Direction.DESC, "id"));
