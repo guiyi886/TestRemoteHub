@@ -15,7 +15,7 @@ public class CategoryService {
     CategoryDAO categoryDAO;
 
     /**
-     * 获取所有分类1111111111
+     * 获取所有分类3333
      * @return 所有分类
      */
     public List<Category> list() {
